@@ -1,0 +1,21 @@
+demo:
+  Component: /Users/yk/heimanba/aliFE/jmstack-proj/fc-deploy-alibaba-component/dist
+  Provider: alibaba
+  Access: default
+  Properties:
+    service:
+      name: hooks
+
+    provider:
+      name: aliyun
+      runtime: nodejs12
+
+    aggregation:
+      all:
+        functionsPattern:
+          - '*'
+
+    package:
+      include:
+        - build
+
