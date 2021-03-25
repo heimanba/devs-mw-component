@@ -1,20 +1,17 @@
 demo:
-  Component: /Users/yk/heimanba/aliFE/jmstack-proj/fc-deploy-alibaba-component/dist
+  Component: /Users/shihuali/workspace/midway-faas-component/lib/index.js
   Provider: alibaba
   Access: default
   Properties:
     service:
       name: hooks
-
     provider:
       name: aliyun
       runtime: nodejs12
-
     aggregation:
       all:
         functionsPattern:
           - '*'
-
     package:
       include:
         - build

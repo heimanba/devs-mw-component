@@ -25,6 +25,7 @@
     "dist"
   ],
   "scripts": {
+    "dev": "npx tsc -w -p tsconfig.json",
     "lint": "../../node_modules/.bin/eslint .",
     "test": "../../node_modules/.bin/jest",
     "build": "tsc --build",
@@ -38,7 +39,7 @@
   },
   "license": "MIT",
   "gitHead": "9b45c3d91ea6e80f0a65b89aadd85a324726a61f",
-  "__npminstall_done": "Wed Mar 24 2021 20:00:41 GMT+0800 (中国标准时间)",
+  "__npminstall_done": "Thu Mar 25 2021 11:10:06 GMT+0800 (GMT+08:00)",
   "_from": "@midwayjs/fcli-plugin-fc@1.2.54",
   "_resolved": "https://registry.npm.taobao.org/@midwayjs/fcli-plugin-fc/download/@midwayjs/fcli-plugin-fc-1.2.54.tgz"
 }

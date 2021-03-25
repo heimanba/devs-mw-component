@@ -18,7 +18,7 @@ export class AliyunFCPlugin extends BasePlugin {
       this.core.cli.log('Generate spec file...');
       await generateFunctionsSpecFile(
         this.getSpecJson(),
-        join(this.midwayBuildPath, 'template.yml')
+        join(this.midwayBuildPath, 'template.yml'),
       );
     },
     'package:generateEntry': async () => {
@@ -32,7 +32,7 @@ export class AliyunFCPlugin extends BasePlugin {
       });
     },
     'deploy:deploy': async () => {
-      console.log(222);
+      console.log(111);
       const profPath = join(homedir(), '.fcli/config.yaml');
       const isExists = existsSync(profPath);
       if (!isExists || this.options.resetConfig) {
