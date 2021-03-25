@@ -12,19 +12,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "@midwayjs/faas": "^2.8.6",
-    "@midwayjs/hooks": "^2.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "@midwayjs/cli": "^1.2.45",
-    "@midwayjs/cli-plugin-faas": "^1.2.45",
-    "@midwayjs/fcli-plugin-fc": "^1.2.45",
-    "@midwayjs/hooks-testing-library": "^2.0.0",
-    "@midwayjs/serverless-app": "^2.8.7",
-    "@midwayjs/serverless-fc-trigger": "^2.8.7",
-    "@midwayjs/vite-plugin-hooks": "^2.0.0",
     "@types/jest": "^26.0.20",
     "@types/koa-router": "^7.4.1",
     "@types/react": "^17.0.0",

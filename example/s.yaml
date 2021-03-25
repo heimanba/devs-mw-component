@@ -1,5 +1,5 @@
-demo:
-  Component: /Users/shihuali/workspace/midway-faas-component/lib/index.js
+dankun-demo:
+  Component: /Users/yk/heimanba/aliFE/jmstack-proj/midway-faas-component/lib/index.js
   Provider: alibaba
   Access: default
   Properties:
